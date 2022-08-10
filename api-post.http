@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.flipkart.com/adidas-amaz-runner-m-running-shoes-men/p/itm4ffd1fef56440?pid=SHOG4YNAHBHGSQAZ&lid=LSTSHOG4YNAHBHGSQAZL2ZAOH&marketplace=FLIPKART&store=osp%2Fcil%2F1cu&srno=b_1_1&otracker=hp_omu_Men%2527s%2BFootwear%2B_2_12.dealCard.OMU_IOXDE10QXSJG_6&otracker1=hp_omu_WHITELISTED_neon%2Fmerchandising_Men%2527s%2BFootwear%2B_NA_dealCard_cc_2_NA_view-all_6&fm=neon%2Fmerchandising&iid=en_O4W4lVI0N%2B0yGR3TjwdFIZKftdBezDx2jceTSC5C6b3dHGwSHeyjCAdPhBTcdJba2VWiY9jcXXEniSJJXeQLHw%3D%3D&ppt=browse&ppn=browse&ssid=rejgs11j0yi78cg01640344562652"
+}
