@@ -1,7 +1,7 @@
 # Threat Modelling for URLShorteningService
 
-**URL Shortening Service - Requirements:**
 
+# URL Shortening Service - Requirements:
 **Functional Requirements:**
 - Given a URL, our service should generate a shorter and unique alias of it. This is called a short link (in California, USA ). 
 - When users access a short link, our service should redirect them to the original link.
@@ -71,7 +71,7 @@ We need to store billions of records. Each object we store is small (less than 1
 
 ---
 
-**Benefits of Implementing Reverse Proxy (API Gateway)**
+# Benefits of Implementing Reverse Proxy (API Gateway)
 
 - Protect APIs from overuse and abuse via authentication-service and rate limiting
 - Suited best for microservices architecure. Easily we can retire/re-create microservices
@@ -104,7 +104,7 @@ REST APIs:
 
 ---
 
-# Threats Identified
+# URL Shortening Service - Threats Identified
 
 - DOS attack on External API Endpoints - ensure rate limiting.
 - No domain whitelisting for url shortening requests at API gateway level.
@@ -134,7 +134,7 @@ REST APIs:
 
 ---
 
-# Security Best Practises
+# URL Shortening Service - Security Best Practises
 
 - Seperate services for url shortening (post/delete) and url lookup should be provided (get request) as get traffic will be much higher than post traffic.
 - Cleanup service could only be accessed by admins.
