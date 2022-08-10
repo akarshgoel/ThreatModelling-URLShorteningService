@@ -3,7 +3,7 @@
 
 # URL Shortening Service - Requirements:
 **Functional Requirements:**
-- URL Shortening Service would be created to be used by Internal Users only, within the organzation network.
+- URL Shortening Service would be created to be used by internal users only, within the organzation network.
 - Given a URL, our service should generate a shorter and unique alias of it. This is called a short link (in California, USA ). 
 - When users access a short link, our service should redirect them to the original link.
 - Short link for limited sub-domains only.
