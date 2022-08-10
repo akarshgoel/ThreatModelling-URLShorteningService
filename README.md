@@ -1,4 +1,4 @@
-# SecurityAssessment-URLShorteningService
+# ThreatModelling-URLShorteningService
 Security Assessment for URL Shortening Service
 
 ---
