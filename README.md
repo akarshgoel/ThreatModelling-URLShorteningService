@@ -104,7 +104,7 @@ REST APIs:
 
 ---
 
-**Threat Modelling of URL Shortening Service:**
+# Threats Identified
 
 - DOS attack on External API Endpoints - ensure rate limiting.
 - No domain whitelisting for url shortening requests at API gateway level.
@@ -134,7 +134,7 @@ REST APIs:
 
 ---
 
-**Security Best Practises for URL Shortening Service:**
+# Security Best Practises
 
 - Seperate services for url shortening (post/delete) and url lookup should be provided (get request) as get traffic will be much higher than post traffic.
 - Cleanup service could only be accessed by admins.
