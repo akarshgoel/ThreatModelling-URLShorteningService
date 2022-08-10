@@ -1,4 +1,4 @@
-# ThreatModelling for URLShorteningService
+# Threat Modelling of URLShorteningService
 
 **URL Shortening Service - Requirements:**
 
