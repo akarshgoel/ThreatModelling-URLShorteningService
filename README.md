@@ -84,13 +84,13 @@ We need to store billions of records. Each object we store is small (less than 1
 
 ---
 
-**Rest APIs**
+**URL Shortening:**
 
 - Allowed sub-domains: www.accounts.test.com, www.jampage.test.com, www.wikipage.test.com
 - long URL: https://www.accounts.test.com/feed/?trk=guest_homepage-basic_nav-header-signin
 - Short URL: https://www.accounts.test.com/akarsh-goel-DS2Pdz
 
-REST APIs: 
+**REST APIs:** 
 - postURL(access-token, longUrl, uuid=akarsh-goel, expire_date=default) (3 years) – url shotening service
 - Response: JSON formatted – urlCode, longUrl, shortUrl, date, record-id
 - deleteURL(access-token, uuid=akarsh-goel, urlCode=DS2Pdz)
@@ -104,7 +104,7 @@ REST APIs:
 
 ---
 
-# URL Shortening Service - Threats Identified
+# URL Shortening Service - Threats Identified:
 
 - DOS attack on External API Endpoints - ensure rate limiting.
 - No domain whitelisting for url shortening requests at API gateway level.
@@ -134,7 +134,7 @@ REST APIs:
 
 ---
 
-# URL Shortening Service - Security Best Practises
+# URL Shortening Service - Security Best Practises:
 
 - Seperate services for url shortening (post/delete) and url lookup should be provided (get request) as get traffic will be much higher than post traffic.
 - Cleanup service could only be accessed by admins.
