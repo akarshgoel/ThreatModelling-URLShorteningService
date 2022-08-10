@@ -1,5 +1,5 @@
 # ThreatModelling-URLShorteningService
-Security Assessment for URL Shortening Service
+Threat Modelling for URL Shortening Service
 
 ---
 
