@@ -36,7 +36,7 @@
 - deleteExpiredURL(admin access-token, uuid=bob-james, expired-uuid=akarsh-goel) – backend call from interface hosted on API gateway. (admin access only)
 - Response: expired urls deleted manually (if automatic deletion do not happen).
 
-**Detailed Requirements can be referred here (source)** - https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR
+**Detailed requirements can be referred here (source)** - https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR
 
 ---
 
