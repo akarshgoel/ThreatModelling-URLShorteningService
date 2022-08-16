@@ -90,7 +90,7 @@ We need to store billions of records. Each object we store is small (less than 1
 - deleteExpiredURL(admin access-token, uuid=bob-james, expired-uuid=akarsh-goel) – backend call from interface hosted on API gateway. (admin access only)
 - Response: expired urls deleted manually (if automatic deletion do not happen).
 
-**source** - https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR?aid=5082902844932096&utm_source=google&utm_medium=paid&utm_campaign=dsa_grokking&utm_term=&utm_campaign=%5BTest%5D+Dynamic+Verticals&utm_source=adwords&utm_medium=ppc&hsa_acc=5451446008&hsa_cam=14045073269&hsa_grp=133791763082&hsa_ad=584320664281&hsa_src=g&hsa_tgt=aud-1673486963757:dsa-1287243227699&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw3eeXBhD7ARIsAHjssr_-DNJAdnXUQKFmMj7bfn6Zwsu6LG_gwyeKNB1Mo68QDDWSOttM35caAhHJEALw_wcB
+**source** - https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR
 
 ---
 
