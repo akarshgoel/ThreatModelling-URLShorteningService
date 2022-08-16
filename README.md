@@ -72,19 +72,6 @@ We need to store billions of records. Each object we store is small (less than 1
 
 ---
 
-# Benefits of Implementing Reverse Proxy (API Gateway)
-
-- Protect APIs from overuse and abuse via authentication-service and rate limiting
-- Suited best for microservices architecure. Easily we can retire/re-create microservices
-- Added monitoring and analytical tools to understand user behaviour. (for billing, statisitcs etc)
-- Load Balancing
-- Cache user context for improved performace
-- Handle static web-pages
-- Handle 404 requests if user is not subscribed to the shortUrl service. Request will not reach the url service for 404 and other error messages
-- Handle error message for expired & invalid shortUrl (url expired & deleted)
-
----
-
 **URL Shortening:**
 
 - Allowed sub-domains: www.accounts.test.com, www.jampage.test.com, www.wikipage.test.com
@@ -102,6 +89,19 @@ We need to store billions of records. Each object we store is small (less than 1
 - Response: list of exipired URLs  JSON formatted.
 - deleteExpiredURL(admin access-token, uuid=bob-james, expired-uuid=akarsh-goel) – backend call from interface hosted on API gateway. (admin access only)
 - Response: expired urls deleted manually (if automatic deletion do not happen).
+
+---
+
+# Benefits of Implementing Reverse Proxy (API Gateway)
+
+- Protect APIs from overuse and abuse via authentication-service and rate limiting
+- Suited best for microservices architecure. Easily we can retire/re-create microservices
+- Added monitoring and analytical tools to understand user behaviour. (for billing, statisitcs etc)
+- Load Balancing
+- Cache user context for improved performace
+- Handle static web-pages
+- Handle 404 requests if user is not subscribed to the shortUrl service. Request will not reach the url service for 404 and other error messages
+- Handle error message for expired & invalid shortUrl (url expired & deleted)
 
 ---
 
