@@ -53,7 +53,7 @@
 
 ---
 
-# URL Shortening Service - Threats Identified:
+# URL Shortening Service - Identified Threats:
 
 - DOS attack on API Endpoints of URL Shortening Service (Missing rate limiting checks for API endpoints).
 - Injection Attacks on API Endpoints (Missing Input Validation checks for API endpoints).
