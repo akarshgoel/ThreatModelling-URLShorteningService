@@ -112,6 +112,8 @@
 - Perform Penetration Testing
 - Perform GDPR (privacy) assessment
 
+**Identified threats can vary from individual to individual, based upon his/her mindset. Threat modelling is all about security mindset and no single threat modelling tool can do the justice in identifying all the related threats within the service.**
+
 
 
 
